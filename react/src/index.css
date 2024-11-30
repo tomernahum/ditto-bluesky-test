@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    color-scheme: light dark;
+}
+
+body {
+    max-width: 60rem;
+    margin: auto;
+    padding: 1rem;
+}
