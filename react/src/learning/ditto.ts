@@ -28,7 +28,9 @@ async function setupSubscriptions(){
     ditto.sync.registerSubscription(`
         SELECT *
         FROM posts
+        WHERE isDeleted = false
     `);
+    
 
 
 

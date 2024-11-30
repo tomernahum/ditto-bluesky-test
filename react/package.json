@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@atproto/api": "^0.13.18",
     "@dittolive/ditto": "^4.9.0",
     "@faker-js/faker": "^9.2.0",
     "@tanstack/react-query": "^5.62.0",
