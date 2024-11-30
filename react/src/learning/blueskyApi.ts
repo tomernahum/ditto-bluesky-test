@@ -23,3 +23,5 @@ console.log(JSON.stringify(data, null, 2));
 export async function getFollowingFeedSample({limit=3}: {limit: number}) {
     return await agent.getTimeline({cursor: '', limit: limit});
 }
+
+export default agent

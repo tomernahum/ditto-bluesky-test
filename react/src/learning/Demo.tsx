@@ -153,6 +153,7 @@ function BlueSkyApiDemo(){
     return (
         <>
             <h1 className=" font-bold">Bluesky Following Feed:</h1>
+            <button onClick={() => feedSampleQuery.refetch()} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-1"> Refetch </button>
             {feedSample?.map(postData => (
                 <div key={postData.post.cid} className="flex items-center my-2">
                     <img 
